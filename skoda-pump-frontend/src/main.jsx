@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { useState } from "react";
 import {
-  BrowserRouter,
+  HashRouter,
   Routes,
   Route,
   useNavigate,
@@ -181,11 +181,11 @@ function AppPage() {
 // Main Router
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/app" element={<AppPage />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>
 );
