@@ -1,7 +1,7 @@
 {
   "name": "skoda-pump-frontend",
   "version": "1.0.0",
-  "homepage": "https://plasmacat420.github.io/pump-selector/",
+  "homepage": "https://plasmacat420.github.io/Pump-Selector/",
   "scripts": {
     "start": "vite",
     "build": "vite build",
